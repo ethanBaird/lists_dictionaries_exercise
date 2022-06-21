@@ -38,5 +38,9 @@ stops.sort()
 print(stops)
 
 #9. Reverse the positions of the stops in the list
+
+stops.reverse()
+print(stops)
+
 #10 Print out all the stops using a for loop
 
