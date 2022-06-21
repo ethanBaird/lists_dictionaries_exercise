@@ -93,4 +93,26 @@ users["Erik"]["home_town"] = "Edinburgh"
 print(users["Erik"]["home_town"])
 
 # 9. Add a pet dog to Erik called "fluffy"
+
+users["Erik"]["pets"].append({
+  "name": "fluffy",
+  "species": "dog"
+})
+
+print(users["Erik"]["pets"])
+
 # 10. Add another person to the users dictionary
+
+users["Ethan"] = {
+    "twitter": "ethanB",
+    "lottery_numbers": [1, 19, 10, 94, 15, 4],
+    "home_town": "Falkirk",
+    "pets": [
+    {
+      "name": "Minnie",
+      "species": "cat"
+    }
+  ]
+}
+
+print(users["Ethan"])
