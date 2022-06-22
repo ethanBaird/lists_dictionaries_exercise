@@ -46,3 +46,9 @@ for country in united_kingdom:
   total_pop += country["population"]
 
 print(total_pop)
+
+# 5 Using a loop and a currency key and value to eac country
+
+for country in united_kingdom:
+  country["country"] = "dollars"
+

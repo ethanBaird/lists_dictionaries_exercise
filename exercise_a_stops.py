@@ -26,6 +26,8 @@ print(stops)
 #6. Delete "Cumbernauld" from the list by index
 
 stops.pop(2)
+# alternate - helps if list is larger or difficult to read
+# stops.pop(stops.index("Cumbernauld"))
 print(stops)
 
 #7. Print the number of stops there are in the list

@@ -75,11 +75,29 @@ print(users["Avril"]["pets"][0]["species"])
 users["Erik"]["lottery_numbers"].sort()
 print(users["Erik"]["lottery_numbers"][0])
 
+#ALT
+sorted(users["Erk"]["lottery_numbers"])[0]
+min(users["Erk"]["lottery_numbers"])
+
 # 6. Return an list of Avril's lottery numbers that are even
 
+# lottery_numbers = users["Avril"]["lottery_numbers"]
+# even_numbers = []
+                      #lottery_numbers
 for lottery_number in users["Avril"]["lottery_numbers"]:
   if lottery_number % 2 == 0:
+    # even_numbers.append(lottery_number)
     print(lottery_number)
+
+#print(even_numbers)
+
+#ALT - to print as a list
+even_numbers=[]
+for lottery_number in users["Avril"]["lottery_numbers"]:
+  if lottery_number % 2 == 0:
+    even_numbers.append(lottery_number)
+
+print(even_numbers)
 
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
