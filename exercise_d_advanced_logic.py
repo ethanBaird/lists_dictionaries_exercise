@@ -37,7 +37,7 @@ ignore = False
 
 for number in numbers:
     if number == 6:
-        ignore == 6:
+        ignore == 6
     if ignore == False:
         sum += number
     if number == 7:
